@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario de registro 2.0</h1>
+    </header>
+</body>
+  <main>
+      <form action="" method="POST">
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" id="nombre" maxlength="20" required />
+      <br>
+      <br>
+      <label for="apellidos">Apellidos:</label>
+      <input type="text" name="apellidos" id="apellidos" maxlength="20" required />
+      <br>
+      <br>
+      <label for="sexo">Sexo:</label>
+      <input type="radio" name="sexo" id="sexo" value="hombre" required />Hombre
+      <input type="radio" name="sexo" id="sexo" value="mujer" required />Mujer
+      <br>
+      <br>
+      <label for="correo">Correo:</label>
+      <input type="email" name="correo" id="correo" required />
+      <br>
+      <br>
+      <label for="poblacion">Población:</label>
+      <select name="poblacion" id="poblacion">
+          <option value="alicante" selected>Alicante</option>
+          <option value="barcelona">Barcelona</option>
+          <option value="madrid">Madrid</option>
+      </select>
+      <br>
+      <br>
+      <label for="descripcion">Descripción:</label>
+      <textarea name="descripcion" id="descripcion" cols="50" rows="8"></textarea>
+      <br>
+      <br>
+      <label for="valor1">
+        <input type="checkbox" name="valor1" id="valor1" /> Deseo recibir información sobre novedades y ofertas
+        </label>
+        <br>
+        <br>
+        <label for="valor2">
+        <input type="checkbox" name="valor2" id="valor2" required /> Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos.
+        </label>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+        </form>
+    </main>
+  </html>
